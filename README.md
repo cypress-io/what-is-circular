@@ -1,10 +1,10 @@
-# what-is-circular [![Build Status](https://travis-ci.org/flotwig/what-is-circular.svg?branch=master)](https://travis-ci.org/flotwig/what-is-circular)
+# what-is-circular [![Build Status](https://travis-ci.org/cypress-io/what-is-circular.svg?branch=master)](https://travis-ci.org/cypress-io/what-is-circular)
 
 Like [`is-circular`](https://github.com/tjmehta/is-circular/), but returns the path to the first circular reference found.
 
 # Installation
 
-`npm install what-is-circular`
+`npm install @cypress/what-is-circular`
 
 # Usage
 
@@ -15,7 +15,7 @@ Returns an array that contains the path to the first circular reference found, o
 # Example
 
 ```js
-var whatIsCircular = require('what-is-circular')
+var whatIsCircular = require('@cypress/what-is-circular')
 
 var circularObj = {
   foo: 1,

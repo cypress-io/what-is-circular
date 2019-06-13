@@ -1,5 +1,5 @@
 {
-  "name": "what-is-circular",
+  "name": "@cypress/what-is-circular",
   "version": "1.0.0",
   "description": "Like is-circular, but returns the path to the first circular reference found.",
   "main": "index.js",
